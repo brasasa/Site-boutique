@@ -1,0 +1,490 @@
+/*Déclaration de variables ex:couleurs site
+--couleur1:#FCF5E7; beige
+--Couleur2:#FF5757; corail
+--coukeur3:#BD8F53; marron
+--couleur4:#153828; vert
+--couleur5:#0097B2; bleu
+*/
+
+
+body {
+   background-image:url(img/2.jpg);
+   background-size:cover;
+   background-position:center;
+    
+   font-size:1em;
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   color:#153828;
+}
+
+
+
+header {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+      
+    nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight:200;
+    font-style:normal;
+    }
+  
+  
+    
+    nav a{
+    text-decoration:none;
+    color:#153828;
+    }
+
+    .navbar li ul {
+    display: none;
+    height: auto;
+    }
+
+    .navbar li:hover ul {
+    display: block;
+    }
+    .sousmenu :hover{
+    color:#FF5757;
+    }
+    }
+
+.Sectionsize{
+position: relative;
+min-height:95vh;
+min-width: 95vw;
+margin: 0;
+padding: 20px;
+}
+
+h1{
+    font-size:5em;
+    font-weight:400;
+    font-style: normal;
+    font-family: "Water Brush", cursive;
+    color:#0097b2;
+    text-align: center;
+  }
+  
+  h1.nom{
+    color:#153828;
+    padding-top: 0%; 
+  }
+  
+  
+  h2{
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Water Brush", cursive;
+  }
+    
+  .h2center{
+  text-align: center;
+  }
+  
+  h3{
+    font-size:1.5em;
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+   }
+
+   .highlight{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+      
+      
+    .citation{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style:italic;
+    }
+
+
+/* Footer */
+
+.footer{
+	background-color:#153828;
+    padding: 20px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+    padding-left:50px;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer-col{
+   width: 25%;
+}
+
+.footer-col h4{
+	font-size: 1em;
+	color:#FCF5E7;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 300;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#FF5757;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 0.8em;
+	text-transform: capitalize;
+	color:#FCF5E7;
+	text-decoration: none;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:#2c8b5f;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	/* color:#153828a6; */
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 750px){
+  .footer-col{
+    width: 50%;
+   }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+   }
+}
+
+  
+   
+  /*Accueil page2*/
+    
+    div#rectangle1{
+      width: 450px;
+      height: 200px;
+      background-color: #bd8f53;
+      position:absolute;
+      left:40%;
+      top:2%;
+   
+    }
+  
+    div#rectbleu{
+      background-color:#0097b2;
+      width: 250px;
+      height: 250px;
+      border-radius : 0px 0px 0px  0px;
+      position:absolute;
+      left:60%;
+      top:45%;
+  
+    }
+  
+    div#polybeige{
+       background-color : #FCF5E7;
+      width: 250px;
+      height: 400px;
+      border-radius : 0px 0px 0px 144px;
+      position:absolute;
+      left:0%;
+      top:35%;
+    }
+    
+    div#polycorail{
+      background-color : #FF5757;
+      width: 250px;
+      height: 350px;
+      border-radius : 206px 206px 0px 0px;
+      object-position: 50% 100%;
+      position:absolute;
+      left:30%;
+      top:60%;
+    }
+  
+    div#polyvert{
+      background-color :#153828;
+      width: 200px;
+      height: 350px;
+      border-radius : 153px 0px 0px 0px;
+      position:absolute; 
+      left:90%;
+      top: 25%;
+     }
+
+    /*responsive*/
+  @media(max-width:750px){
+    div#rectangle1, div#rectbleu,div#polybeige,div#polycorail, div#polyvert {
+        position:relative;
+        display: flex;
+        margin:20px;
+       
+       
+     }
+    }
+  
+
+    /*Accueil page3  A propoq*/
+      
+    .polybleu{
+      background-color:#0097b2;
+      width: 250px;
+      height: 350px;
+      border-radius : 206px 206px 0px 0px;
+      margin-top:80px;   
+    }
+
+     
+
+    article{
+      width:60%;
+    }
+
+    div.apropos{
+      display: flex;
+      gap:40px;
+      margin:50px;
+    }
+
+    /*responsive*/
+  /* @media(max-width:750px){
+    .polybleu, article {
+      display:flex;
+      flex-wrap: wrap;
+      width:100%;
+       
+     }
+    }
+   */
+
+/*Les créations*/
+
+div#creapage1-1,#creapage1-2,#creapage1-3 {
+    padding:20px;
+    position:relative;
+    }  
+   
+    div#creapage1 {
+      display:flex;
+      justify-content: space-between;
+      text-align: center;
+    
+    }
+
+ .trait_corail{
+  background-color:#FF5757;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+  margin:auto;
+ }
+   
+
+/*responsive*/
+/* @media(max-width:900px){
+  div#creapage1-1,#creapage1-2,#creapage1-3 {
+    
+         
+   }
+  } */
+
+
+  .imagecrea{
+    margin:auto;
+    object-fit:scale-down;
+    object-position: center;
+    height:30% ;
+    width:250px;
+    border-radius : 206px 206px 0px 0px;
+    border-style:solid;
+    border-width: 2px;  
+    overflow:hidden;
+  }
+
+
+  /*Explosion box*/
+
+  .explosionbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .lightbox-container {
+    display: flex;
+    flex-direction: column; /* On place les lightboxes une en dessous de l'autre */
+    gap: 20px; /* Un petit espace entre les deux lightboxes */
+    width: 50%; /* Ajuste la largeur pour que les lightboxes ne prennent pas toute la largeur de l'écran */
+}
+
+.lightbox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+/*Pages Cartes*/
+.descartes {
+  text-align: center;
+}
+
+.gallery {
+  display:flex;
+  justify-content: center;
+ 
+}
+
+.gallery img{
+  width:15%;
+}
+
+
+
+
+/*Les Petites attentions*/ 
+.attentions {
+position: relative;
+width:100vw;
+height:100vh;
+overflow:hidden;
+}
+
+ul#ulatt{
+position:absolute;
+width:100%;
+height:80%;
+box-shadow:inset 0 0 1px rgba(0,0,0,.05);
+}
+li.att{
+position:relative;
+float:left;
+width:33.33%;
+height:50%;
+}
+li.att img{
+position:absolute;
+width:50%;
+height:50%;
+margin:10%;
+box-shadow:0 0 1px 1px rgba(0,0,0,.2);
+transform:rotate(4deg);
+transition:all .5s ease-in-out;
+-webkit-transition:all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out;
+-o-transition:all .5s ease-in-out;
+-ms-transition:all .5s ease-in-out;
+}
+li.att img:hover{
+width:90%;
+height:90%;
+margin:5%;
+transform:rotate(0deg);
+background:#f5f5f5;
+box-shadow:0 0 10px 1px rgba(0,0,0,.5);
+}
+
+/*contact*/
+.email{
+  font-size:1.5em;
+  color:#0097b2;
+  text-align: center;
+}
+
+form.formulairecontact {
+  display: table;
+  margin:auto;
+  font-size: 1.5em;
+  }
+div.formulairecontact {
+  display: table-row;
+}
+label,input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+label {
+  padding-right: 10px;
+}
+
