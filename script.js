@@ -1,3 +1,5 @@
+// résultat ChtatGPT ne fonctionne pas, mettre plusieurs lightbox sur une page ok, fonctonnalité: essayer d'adapter le code dispo d'une autre lightbox pour lequel le formatage n'était pas bon lorsque l'on rajoute une lightbox dans la page (mais était fonctinnelle seule sur la page)
+
 document.addEventListener("DOMContentLoaded", function() {
   // Fonction pour changer l'image principale dans une lightbox
   function changeMainImage(lightboxId, imageSrc) {
